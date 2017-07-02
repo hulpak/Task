@@ -17,6 +17,7 @@ namespace ConsoleApp3
 		public SmallCompany(string Name, Status status, DateTime CreateDate,string Industry) 
 			: base(Name, status, CreateDate)
 		{
+			_name = Name;
 			_industry = Industry;
 			_vacancies = new List<Vacancy>();
 		}
